@@ -7,6 +7,91 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+     <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Igreja Betesda</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-banner">
+            <div class="hero-content">
+                <h2>BEM-VINDO A CASA DE MISERICÓRDIA</h2>
+                <p>ONDE VIDAS SÃO TRANSFORMADAS PELO PODER DE DEUS!</p>
+            </div>
+            <img src="igreja.jpg" alt="Culto na Igreja Betesda" class="hero-background">
+        </section>
+
+        <section id="sobre" class="about-section">
+            <div class="container">
+                <h2>Nossa Missão</h2>
+                <article class="about-content">
+                    <img src="pastor.jpg" alt="Pastor da Igreja Betesda">
+                    <div class="about-text">
+                        <h3>Levar o evangelho daquele que salva, cura, batiza e em breve voltará.</h3>
+                        <p>A Igreja do Evangelho Quadrangular Betesda é uma casa de fé comprometida em glorificar a Deus, pregar a palavra e evangelizar o mundo. Nossos pilares são a palavra, a oração, a comunhão e o serviço ao próximo, refletindo as quatro faces do ministério de Jesus Cristo.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="eventos" class="events-section">
+            <div class="container">
+                <h2>Próximos Eventos</h2>
+                <div class="events-grid">
+                    <article class="event-card">
+                        <img src="santaceia.jpg" alt="Evento especial">
+                        <div class="card-content">
+                            <h3>Santa Ceia do Senhor</h3>
+                            <p><strong>Data:</strong> Domingo ás 19:00</p>
+                            <p>Seu lugar na mesa está reservado, venha ceiar conosco!</p>
+                        </div>
+                    </article>
+                    
+                    <article class="event-card">
+                        <img src="batismo.jpg" alt="Batismo nas águas">
+                        <div class="card-content">
+                            <h3>Batismo nas Águas</h3>
+                            <p><strong>Data:</strong> 15 de Novembro de 2025</p>
+                            <p>Celebre conosco este momento de pública confissão de fé e nova vida em Cristo. Uma grande festa nos céus e na terra!</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <div class="container">
+                <h2>Fale Conosco</h2>
+                <p>Envie seu pedido de oração ou mensagem.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Sua Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Igreja Quadrangular Betesda</p>
+            <p>Endereço: Rua Dolores Costa Alves, 1200A - Bairro Florença</p>
+        </div>
+    </footer>
 </body>
 </html>

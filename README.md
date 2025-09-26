@@ -10,17 +10,20 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Vítor Rodrigues da Silva
+- Matricula: 905416
+- Proposta de projeto escolhida: Igreja
+- Breve descrição sobre seu projeto: Site para a igreja onde eu congrego.
 
 
 ## Print do(s) wireframe(s) criado
 
 <<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](esboço.png)
 
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+![Home-Page](tela1.png)
+![Home-Page](tela2.png)
